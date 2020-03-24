@@ -20,7 +20,7 @@ puts("selection sort: #{sorted}")
 =begin
     with bubble sorting we have to go over the entire array looking at each
     element and comparing n (index position) with n+1 each iteration (the adjacent element to the right) 
-    and when doing so if value at n < n+1, we swap the elements at their index positions, and 
+    and when doing so if value at n > n+1, we swap the elements at their index positions, and 
     if value at n < n+1, both values are left alone and the loop iterates with each new comparison being between
     the next value(s) in the array. this process is repeated during the length of the array.
 =end
